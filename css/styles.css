@@ -1,0 +1,77 @@
+body {
+	background-color: #eeeeee; 
+	font-family: helvetica,arial,sans-serif ;
+	margin: 0;
+	padding-bottom: 200px;
+
+}
+
+nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 154px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: #CDFFFF;
+    text-align: center;
+    text-decoration: none;
+    color: #400D12;
+}
+
+/* Change the link color to Light Blue Viking on hover */
+li a:hover {
+    background-color: #4FD5D6;
+}
+
+/* This should show the user a solid color on the button which represents which page they are on*/
+.active {
+    background-color: #4FD5D6;
+}
+
+/* Logo CSS*/
+.badge {
+    text-align: center;
+    position: relative;
+    border: 3px solid white;
+    bottom: 60px;
+    margin: 0 auto;
+    left: 20px;
+    top: 10px;
+    padding-top: -100px;
+}
+
+nav li:last-child{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    margin: 0 auto;
+    width: 270px;
+    height: 270px;
+    float: none;
+}
+
+.badge i {
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+
+
+#first {
+    position: relative;
+    padding-left: 200px;
+    float: right;
+}
