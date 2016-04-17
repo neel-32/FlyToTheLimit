@@ -1,18 +1,25 @@
 body {
 	background-color: #eeeeee; 
 	font-family: helvetica,arial,sans-serif ;
-	margin: 0;
+	margin: 0 auto;
 	padding-bottom: 200px;
+    width: 1366px;
+    border: 1px solid black;
 
 }
 
-nav ul {
+main {
+    clear: both;
+}
+
+nav ul{
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: relative;
     top: 154px;
     width: 100%;
+    font-size: 20px;
 }
 
 li {
@@ -47,31 +54,41 @@ li a:hover {
     margin: 0 auto;
     left: 20px;
     top: 10px;
-    padding-top: -100px;
 }
 
-nav li:last-child{
+div.img {
     background-color: white;
     padding: 20px;
     border-radius: 50%;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
     overflow: hidden;
     margin: 0 auto;
     width: 270px;
     height: 270px;
-    float: none;
+    float: left;
+    position: relative;
+    left: 115px;
 }
 
 .badge i {
     color: #ffffff;
     line-height: 20px;
     font-size: 25px;
+
 }
 
+.h1 {
+    text-align: center;
+}
 
-
-#first {
-    position: relative;
-    padding-left: 200px;
+.share{
     float: right;
+    text-align: right;
+    width: 300px;
+    word-spacing: -6px;
+}
+
+.share li {
+    float: none;
+    display: inline-block;
 }
